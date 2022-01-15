@@ -50,17 +50,54 @@ img {
 
 }
 
+#img-caption 
+{
+    text-align: center;
+}
+
+.container 
+{
+    
+    width: 50%;
+    height:700px;
+    box-sizing: border-box;
+    border: 2px solid green !important;
+    margin-top: 40px;
+   display: flex; 
+   margin-bottom: 40px;
+}
+#education 
+{
+    margin-left: 40px;
+    margin-right: 40px;
+}
+#experience 
+{
+    margin-right: 40px;
+}
+
+.linea-cajas 
+{
+    display:flex; 
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border: 7px blue solid;
+   
+}
+
+.cuadrado 
+{
+    width: 33%;
+    height: auto; 
+}
+
+
 
 .exp 
 {
     list-style: none;
     font-size: 20px;
     
-}
-
-#img-caption 
-{
-    text-align: center;
 }
 
 .grid 
