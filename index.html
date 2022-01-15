@@ -14,55 +14,39 @@
     </head>
     <main id="main">
     <body>
-        <!-- User Story #2: I should see an element with a corresponding id="title", which contains a string (i.e. text) that describes the subject of the tribute page (e.g. "Dr. Norman Borlaug"). -->
+        
+        
+
         <h1 id="title"> Sebastián Chávarry </h1>
 
-        <!-- User Story #3: I should see either a figure or a div element with a corresponding id="img-div".-->
         <div id="img-div" class="center">
-            <!-- User Story #4: Within the img-div element, I should see an img element with a corresponding id="image".-->
-            <img id="image" src="image.jpeg" alt="Image">
-            <!-- User Story #5: Within the img-div element, I should see an element with a corresponding id="img-caption" that contains textual content describing the image shown in img-div.-->
+            <img id="image" src="./images/image.jpeg" alt="Image">
             <figcaption id="img-caption"> An outstanding Software Engineering student from University of Lima</figcaption>
         </div>
-        
-        <!-- User Story #6: I should see an element with a corresponding id="tribute-info", which contains textual content describing the subject of the tribute page. -->
 
         <section id="tribute-info">
-            <h2 class="professional-experience">Professional Experience</h2>
-            <ul class="experiences">
+        <div class="linea-cajas">
+            <div class="container" id="education">
+                <div class="cuadrado">
+                   
+                <h3 class="reco">SS.CC. Recoleta </h3>
+                <img src="./images/reco.png" alt="logo recoleta">
+                <li class="bullet">IB Diploma: 37/45. Higher Level courses: History of Americas (6), Spanish A (6), English B (6)</li>
+                <li class="bullet">Second-highest score of the 2019 IB class.</li>
+                <li class="bullet">Ranked 9th in the graduating high school class of 2018 composed of 155 students.</li>
                 
-                <h3 class="exp"> Junior Achievement Peru</h3>
-                
-                    
-                    <li class="bullet">Lead a team of 5 people to develop a database management system using the Python Flask library and PL/SQL to manage 
-                        Junior Achievement competencies through a web app connected to an Oracle Database implementing CRUD operations and 
-                        visualization of data through Dashboards. It was made for the course “Data Engineering” taught by Professor July Valencia.</li>
-                    <li class="bullet">Organised meetings with the project manager identifying functional and non-functional requirements as well as potential users
-                        using an agile approach to organising the team, including the use of tools such as Trello and Notion.</li>
-                    <li class="bullet">Applied the rules of normalisation to transform their data stored in Excel into a relational database.</li>
-                    
-                <h3 class="exp">Santander Consumer Peru</h3>
-                    <li class="bullet">Managed a team of 5 people organising meetings with the IT manager of this company to gather information about their 
-                        processes and their structure for the course “Business Process Management” taught by Professor Pavel Aliaga. </li>
-                    <li class="bullet">Designed the complaints management process using an AS-IS model using Bizagi Modeler.</li>
-                    <li class="bullet">Used a quantitative simulation to identify the bottleneck that generated an overuse of 82.21% of the resources.
-                    </li>
-                    <li class="bullet">Redesigned the process by making a TO-BE model based on the redesign heuristics obtaining a 62% reduction in overall cost 
-                    and a 24% reduction in duration. </li>
-                
-                <h3 class="exp"> Recoleta Debate Team </h3>
-                    <li class="bullet">Management position for the organization of the first edition of the Recoleta Model United Nations 2019 conference, which was 
-                        attended by more than 500 participants from all over Lima. </li>
-                    <li class="bullet">Managed to get the logistical and financial support of 10 sponsors, among which were the PUCP, USIL, ULIMA, Alianza 
-                        Francesa, EF, etc. skills, knowledge, abilities, or achievements.</li>
-                    <li class="bullet"> Led a team of 30 people and 8 committee directors during the 3 days of the conference. </li>  
-                
-            </ul>
-            <h2 class="education">Education</h2>
-
-            <ul class="edu">
-                <h3 class="ulima">University of Lima</h3>
-                
+                </div>
+                <div class="cuadrado">
+                    <h3 class="uai">University of Adolfo Ibáñez</h3>
+                    <img src="./images/uai.jpg" alt="logo UAI">
+                <li class="bullet">Study abroad coursework in Data Mining. GPA [6.4/7]</li>
+                <li class="bullet">Topics covered: Unsupervised and Supervised Machine Learning Algorithms</li>
+                <li class="bullet">Winner of the “Imagine UAI Global Classroom 2021- 02: Lazos Solidarios” scholarship offered to talented students from South 
+                    America to pursue an online exchange programme at Universidad Adolfo Ibañéz</li>
+                </div>
+                <div class="cuadrado">
+                    <h3 class="ulima">University of Lima</h3>
+                    <img src="./images/ulima.png" alt="logo ulima">
                 <li class="bullet">Bachelor of Systems Engineering (7
                     th semester), Major: Software Development. GPA[17.7/20]</li>
                 <li class="bullet">Part of the top 10% of the Engineering and Architecture Faculty.
@@ -73,20 +57,52 @@
                 </li>
                 <li class="bullet">2-Time Finalist in the Pitch Competition 2020-02 and 2021-01 organized by SAP Next-Gen Lab.
                 </li> 
+                </div>
+    
+            </div>
+    
+            <div class="container" id="experience">
+                <div class="cuadrado">
+                    <h3 class="exp"> Recoleta Debate Team </h3>
+                    <img src="./images/recomun.jpg" alt="recomun">
+                    <li class="bullet">Management position for the organization of the first edition of the Recoleta Model United Nations 2019 conference, which was 
+                        attended by more than 500 participants from all over Lima. </li>
+                    <li class="bullet">Managed to get the logistical and financial support of 10 sponsors, among which were the PUCP, USIL, ULIMA, Alianza 
+                        Francesa, EF, etc. skills, knowledge, abilities, or achievements.</li>
+                    <li class="bullet"> Led a team of 30 people and 8 committee directors during the 3 days of the conference. </li> 
+                </div>
+                <div class="cuadrado">
+                    <h3 class="exp">Santander Consumer Peru</h3>
+                    <img src="./images/santander.png" alt="logo santander">
+                    <li class="bullet">Managed a team of 5 people organising meetings with the IT manager of this company to gather information about their 
+                        processes and their structure for the course “Business Process Management” taught by Professor Pavel Aliaga. </li>
+                    <li class="bullet">Designed the complaints management process using an AS-IS model using Bizagi Modeler.</li>
+                    <li class="bullet">Used a quantitative simulation to identify the bottleneck that generated an overuse of 82.21% of the resources.
+                    </li>
+                    <li class="bullet">Redesigned the process by making a TO-BE model based on the redesign heuristics obtaining a 62% reduction in overall cost 
+                    and a 24% reduction in duration. </li>
+                </div>
+    
+                <div class="cuadrado">
+                    <h3 class="exp"> Junior Achievement Peru</h3>
+                    <img src="./images/ja.png" alt="logo JA Peru">
 
-                <h3 class="uai">University of Adolfo Ibáñez</h3>
-                <li class="bullet">Study abroad coursework in Data Mining. GPA [6.4/7]</li>
-                <li class="bullet">Topics covered: Unsupervised and Supervised Machine Learning Algorithms</li>
-                <li class="bullet">Winner of the “Imagine UAI Global Classroom 2021- 02: Lazos Solidarios” scholarship offered to talented students from South 
-                    America to pursue an online exchange programme at Universidad Adolfo Ibañéz</li>
+                    <li class="bullet">Lead a team of 5 people to develop a database management system using the Python Flask library and PL/SQL to manage 
+                        Junior Achievement competencies through a web app connected to an Oracle Database implementing CRUD operations and 
+                        visualization of data through Dashboards. It was made for the course “Data Engineering” taught by Professor July Valencia.</li>
+                    <li class="bullet">Organised meetings with the project manager identifying functional and non-functional requirements as well as potential users
+                        using an agile approach to organising the team, including the use of tools such as Trello and Notion.</li>
+                    <li class="bullet">Applied the rules of normalisation to transform their data stored in Excel into a relational database.</li>
+                </div>
+    
+            </div>
 
-                <h3 class="reco">Recoleta Debate Team</h3>
-                <li class="bullet">IB Diploma: 37/45. Higher Level courses: History of Americas (6), Spanish A (6), English B (6)</li>
-                <li class="bullet">Second-highest score of the 2019 IB class.</li>
-                <li class="bullet">Ranked 9th
-                    in the graduating high school class of 2018 composed of 155 students.</li>
-            </ul>
+        </div>
 
+       
+
+
+            
             
 
             <h2 class="ecs">Extracurricular Activities</h2>
@@ -108,7 +124,6 @@
 
         </section>
 
-            <!-- User Story #7: I should see an a element with a corresponding id="tribute-link", which links to an outside site that contains additional information about the subject of the tribute page. HINT: You must give your element an attribute of target and set it to _blank in order for your link to open in a new tab (i.e. target="_blank"). -->
         <a id= "tribute-link" href="https://www.linkedin.com/in/sebasti%C3%A1n-ch%C3%A1varry-gutierrez/" target="_blank">LinkedIn</a>
     </body>
     <footer>
