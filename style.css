@@ -1,6 +1,10 @@
 /*
 User Story #8: The img element should responsively resize, relative to the width of its parent element, without exceeding its original size. 
 User Story #9: The img element should be centered within its parent element.
+
+* {
+    border: 2px solid red;
+}
 */
 
 /*
@@ -23,20 +27,19 @@ User Story #9: The img element should be centered within its parent element.
 }
 */
 
-* {
-    border: 2px solid red;
-}
 
 
-img {
-    max-width: 40%;
+
+#image {
+    max-width: 28%;
     display: block;
     height: auto;
     margin: 0 auto;
   }
+
+  
   
   #img-div {
-    background: white;
     padding: 10px;
     margin: 0;
   }
@@ -46,25 +49,56 @@ img {
 {
     font-size:70px;
     text-align:center;
-        background-color:blueviolet; 
+    background-color: darksalmon;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-top: -10px;
+    margin-left: -10px;
+    margin-right: -10px;
+
+
 
 }
 
 #img-caption 
 {
     text-align: center;
+    margin-top: 10px;
+    font-style: italic;
+}
+
+.titulos 
+{
+    display:flex;
+    margin:0 ;
+}
+
+.container-title 
+{
+    width: 50%;
+    text-align: center;
+    margin-top: 50px;
+    padding-bottom: 10px;
+    font-size: 50px;
 }
 
 .container 
 {
     
     width: 50%;
-    height:700px;
+    height:auto;
     box-sizing: border-box;
-    border: 2px solid green !important;
-    margin-top: 40px;
    display: flex; 
    margin-bottom: 40px;
+   box-shadow: 0 0 20px 8px #d0d0d0;
+   border-radius: 20px;
+   padding-bottom: 20px;
+   padding-top: 10px;
+   
+
+
+
+   
 }
 #education 
 {
@@ -79,9 +113,7 @@ img {
 .linea-cajas 
 {
     display:flex; 
-    margin-top: 50px;
-    margin-bottom: 50px;
-    border: 7px blue solid;
+    margin-bottom: 40px;
    
 }
 
@@ -89,10 +121,27 @@ img {
 {
     width: 33%;
     height: auto; 
+    margin-right: 15px;
+    margin-left: 15px;
+    padding-right: 5px;
+    padding-left: 5px; 
 }
 
-
-
+.titulo-cuadrado 
+{
+    text-align: center;
+    margin-left: 2px;
+    margin-right: 2px;
+    margin-top:10px;
+    margin-bottom: 30px;
+}
+.imagen-cuadrado 
+{
+    max-width: 80%;
+    display: block;
+    height: auto;
+    margin: 0 auto;
+}
 .exp 
 {
     list-style: none;
@@ -107,4 +156,93 @@ img {
 .bullet 
 {
     text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+
 }
+
+#skills 
+{
+    display:inline-block;
+    margin-left: 450px;
+}
+
+#titulo-skills
+{
+    margin-left: 450px;
+}
+
+
+html {
+	background: linear-gradient(-45deg, #FFEFBA, #FFFFFF);
+	background-size: 400% 400%;
+	height: 100vh;
+}
+
+footer 
+{
+    background-color: darksalmon;
+    height: 200px;
+}
+
+
+/* 
+    Not my code, found from:
+    https://www.fabriziovanmarciano.com/button-styles/
+*/
+.example_b {
+	color: #fff !important;
+    font-family: 'Times New Roman', Times, serif;
+	text-transform: uppercase;
+	text-decoration: none;
+	background-color:maroon;
+    
+	padding: 20px;
+	border-radius: 50px;
+	display: inline-block;
+	border: none;
+	transition: all 0.4s ease 0s;
+    margin-top: 30px;
+}
+
+.example_b:hover {
+	text-shadow: 0px 0px 6px rgba(255, 255, 255, 1);
+	-webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+	-moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+	transition: all 0.4s ease 0s;
+}
+
+/*
+    From here on, my code
+*/
+
+.socials 
+{
+    margin-top: 50px;
+    text-align: center;
+}
+
+span
+{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 26px;
+}
+
+.fa 
+{
+    padding: 10px;
+    font-size: 20px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 30%;
+    background-color:peru;
+    color:black;
+}
+
+.fa:hover {
+    opacity: 0.7;
+    color:skyblue;
+}
+
+
+  

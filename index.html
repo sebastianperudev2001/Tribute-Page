@@ -8,16 +8,18 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="style.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">   
-
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+        <link rel="shortcut icon"  href="icono.ico">
         <title>FCC: Tribute Page</title>
+
+
+
     </head>
     <main id="main">
     <body>
         
-        
+            <h1 id="title"> Sebastián Chávarry </h1>
 
-        <h1 id="title"> Sebastián Chávarry </h1>
 
         <div id="img-div" class="center">
             <img id="image" src="./images/image.jpeg" alt="Image">
@@ -26,31 +28,34 @@
 
         <section id="tribute-info">
         
-        <h2 class="container-title">Education</h2>
-        <h2 class="container-title">Experience</h2>
-
+        <div class="titulos">
+            <h2 class="container-title">Education</h2>
+            <h2 class="container-title">Experience</h2>
+        </div>
+                 
+        
+        <!-- Cuadrado de educación -->
         <div class="linea-cajas">
             <div class="container" id="education">
                 <div class="cuadrado">
-                   
-                <h3 class="reco">SS.CC. Recoleta </h3>
-                <img src="./images/reco.png" alt="logo recoleta">
+                <h3 class="titulo-cuadrado" id="reco">SS.CC. Recoleta </h3>
+                <img src="./images/reco.png" alt="logo recoleta" class="imagen-cuadrado">
                 <li class="bullet">IB Diploma: 37/45. Higher Level courses: History of Americas (6), Spanish A (6), English B (6)</li>
                 <li class="bullet">Second-highest score of the 2019 IB class.</li>
                 <li class="bullet">Ranked 9th in the graduating high school class of 2018 composed of 155 students.</li>
                 
                 </div>
                 <div class="cuadrado">
-                    <h3 class="uai">University of Adolfo Ibáñez</h3>
-                    <img src="./images/uai.jpg" alt="logo UAI">
+                    <h3 class="titulo-cuadrado" id="uai">University of Adolfo Ibáñez</h3>
+                    <img src="./images/uai.jpg" alt="logo UAI" class="imagen-cuadrado">
                 <li class="bullet">Study abroad coursework in Data Mining. GPA [6.4/7]</li>
                 <li class="bullet">Topics covered: Unsupervised and Supervised Machine Learning Algorithms</li>
                 <li class="bullet">Winner of the “Imagine UAI Global Classroom 2021- 02: Lazos Solidarios” scholarship offered to talented students from South 
                     America to pursue an online exchange programme at Universidad Adolfo Ibañéz</li>
                 </div>
                 <div class="cuadrado">
-                    <h3 class="ulima">University of Lima</h3>
-                    <img src="./images/ulima.png" alt="logo ulima">
+                    <h3 class="titulo-cuadrado" id="ulima">University of Lima</h3>
+                    <img src="./images/ulima.png" alt="logo ulima" class="imagen-cuadrado">
                 <li class="bullet">Bachelor of Systems Engineering (7
                     th semester), Major: Software Development. GPA[17.7/20]</li>
                 <li class="bullet">Part of the top 10% of the Engineering and Architecture Faculty.
@@ -64,11 +69,11 @@
                 </div>
     
             </div>
-    
+            <!-- Cuadrado de experiencia -->
             <div class="container" id="experience">
                 <div class="cuadrado">
-                    <h3 class="exp"> Recoleta Debate Team </h3>
-                    <img src="./images/recomun.jpg" alt="recomun">
+                    <h3 class="titulo-cuadrado"> Recoleta Debate Team </h3>
+                    <img src="./images/recomun.jpg" alt="recomun" class="imagen-cuadrado">
                     <li class="bullet">Management position for the organization of the first edition of the Recoleta Model United Nations 2019 conference, which was 
                         attended by more than 500 participants from all over Lima. </li>
                     <li class="bullet">Managed to get the logistical and financial support of 10 sponsors, among which were the PUCP, USIL, ULIMA, Alianza 
@@ -76,8 +81,8 @@
                     <li class="bullet"> Led a team of 30 people and 8 committee directors during the 3 days of the conference. </li> 
                 </div>
                 <div class="cuadrado">
-                    <h3 class="exp">Santander Consumer Peru</h3>
-                    <img src="./images/santander.png" alt="logo santander">
+                    <h3 class="titulo-cuadrado">Santander Consumer Peru</h3>
+                    <img src="./images/santander.png" alt="logo santander" class="imagen-cuadrado">
                     <li class="bullet">Managed a team of 5 people organising meetings with the IT manager of this company to gather information about their 
                         processes and their structure for the course “Business Process Management” taught by Professor Pavel Aliaga. </li>
                     <li class="bullet">Designed the complaints management process using an AS-IS model using Bizagi Modeler.</li>
@@ -88,8 +93,8 @@
                 </div>
     
                 <div class="cuadrado">
-                    <h3 class="exp"> Junior Achievement Peru</h3>
-                    <img src="./images/ja.png" alt="logo JA Peru">
+                    <h3 class="titulo-cuadrado"> Junior Achievement Peru</h3>
+                    <img src="./images/ja.png" alt="logo JA Peru" class="imagen-cuadrado">
 
                     <li class="bullet">Lead a team of 5 people to develop a database management system using the Python Flask library and PL/SQL to manage 
                         Junior Achievement competencies through a web app connected to an Oracle Database implementing CRUD operations and 
@@ -103,32 +108,51 @@
 
         </div>
 
-       
+        <h2 class="container-title" id="titulo-skills">Skills</h2>
+
+            <div class="container" id="skills">
+
+
+            <ul>
+
+                <li class="bullet"> <b>Technical</b>: Python (Data Analysis and Machine Learning), Java, C++, JavaScript, HTML/CSS, SQL, Bizagi, Excel, PowerPoint, Power 
+                    BI, Justinmind, Figma, Illustrator, Photoshop.
+                    </li>
+                <li class="bullet"> <b>Language</b>: Spanish (native), English (IELTS 7.5/9), French (DELF B2 84/100), German (A2)</li>
+            </ul>
+            </div>
 
 
             
-            <h2 class="skills">Skills</h2>
-
-            <ul class="skills">
-
-                <li class="bullet"> <b>Technical</b> : Python (Data Analysis and Machine Learning), Java, C++, JavaScript, HTML/CSS, SQL, Bizagi, Excel, PowerPoint, Power 
-                    BI, Justinmind, Figma, Illustrator, Photoshop.
-                    </li>
-                <li class="bullet"> <b>Language</b> : Spanish (native), English (IELTS 7.5/9), French (DELF B2 84/100), German (A2)</li>
-            </ul>
+            
 
         </section>
 
-        <a id= "tribute-link" href="https://www.linkedin.com/in/sebasti%C3%A1n-ch%C3%A1varry-gutierrez/" target="_blank">LinkedIn</a>
+        
     </body>
     <footer>
-          
-    <a href="https://twitter.com/sbastianchvrryg" class="fa fa-twitter"></a>  
-    <a href="https://www.linkedin.com/in/sebasti%C3%A1n-ch%C3%A1varry-gutierrez/" class="fa fa-linkedin"></a>   
-    <a href="https://github.com/sebastianperudev2001" class="fa fa-github"></a>  
+    
+        <div class="button_cont" align="center">
+            <a href="CV_Chavarry.pdf" download="CV_Chavarry.pdf" class="example_b"  rel="nofollow noopener noreferrer" draggable="false">Download my CV in PDF format</a>
+        </div>
+
+        <div class="socials">
+
+            <span> Connect with me on my socials:</span>
+            <span>    <a href="https://twitter.com/sbastianchvrryg" class="fa fa-twitter" target="_blank"></a>  
+            </span>
+            <span>    <a id= "tribute-link" href="https://www.linkedin.com/in/sebasti%C3%A1n-ch%C3%A1varry-gutierrez/" class="fa fa-linkedin" target="_blank"></a>   
+            </span>
+            <span>     <a href="https://github.com/sebastianperudev2001" class="fa fa-github" target="_blank"></a>  
+            </span>
+        </div>
+    
         
     </footer>
     
     </main>
     
     </html>
+
+
+    
